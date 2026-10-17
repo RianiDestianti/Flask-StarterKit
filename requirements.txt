@@ -1,0 +1,10 @@
+Flask>=3.1,<4
+Flask-SQLAlchemy>=3.1,<4
+Flask-Cors>=5.0
+PyMySQL>=1.1
+cryptography>=43.0
+bcrypt>=4.2
+PyJWT>=2.9
+python-dotenv>=1.0
+sendgrid>=6.11
+gunicorn>=23.0; platform_system != "Windows"

@@ -1,0 +1,37 @@
+# virtual environment
+venv
+.venv
+env
+
+# python cache / build
+__pycache__
+*.py[cod]
+*.egg-info
+build
+dist
+instance
+
+# code coverage / test
+coverage
+.coverage
+htmlcov
+.pytest_cache
+
+# logs
+logs
+*.log
+
+# dotenv environment variable files
+.env
+.env.*
+
+# secrets
+secrets
+*.pem
+*.key
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
