@@ -28,10 +28,10 @@ class JSONProvider(DefaultJSONProvider):
     sort_keys = False
 
     @staticmethod
-    def default(o):
-        if isinstance(o, (datetime, date)):
-            return o.isoformat()
-        return DefaultJSONProvider.default(o)
+    def default(value):
+        if isinstance(value, (datetime, date)):
+            return value.isoformat()
+        return DefaultJSONProvider.default(value)
 
 
 app = Flask(__name__)

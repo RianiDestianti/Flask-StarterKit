@@ -11,6 +11,11 @@ build
 dist
 instance
 
+# local database
+*.sqlite
+*.sqlite3
+*.db
+
 # code coverage / test
 coverage
 .coverage
